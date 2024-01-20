@@ -66,16 +66,16 @@ color:#404bbf
     }
 .header-adress-tel{
     color: var(--SLATE, #434455);
-    font-size: 16px;
-    font-style: normal
-    font-weight: 400;
-    line-height: 1.5;       
-    letter-spacing: 0.02em;
-}
- .header-adress-tel:hover,
- .header-adress-tel:focus,
- .header-adress-tel:active {
-     color: #404bbf
+        font-size: 16px;
+        font-style: normal font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+    }
+    
+    .header-adress-tel:hover,
+    .header-adress-tel:focus,
+    .header-adress-tel:active {
+        color: #404bbf
  }
 
 
@@ -94,7 +94,6 @@ color:#404bbf
 }
 .hero-btn {
     background-color: #4D5AE5
-    color: #ffffff
     }
 .hero-btn {
         color: var(--WHITE, #FFF);
@@ -189,9 +188,9 @@ background-color: #404BBF
         text-transform: capitalize;
 }
 
-.portfolio-list {}
+.portfolio-list {background-color: #FFFFFF}
 
-.portfolio-item {}
+.portfolio-item {background-color: #FFFFFF}
 
 .portfolio-img {}
 
