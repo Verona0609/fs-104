@@ -9,16 +9,207 @@
  a {
      text-decoration: none;
  }
+ .visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
 
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
+ }
+ <!--Header-->
+.header-logo{
+    color: var(--IRIS, #2E2F42);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.16;
+        /* 116.667% */
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+}
+.header-logo-blue{
+    color: var(--IRIS, #4D5AE5);
+        
+}
  .header-menu-link {
      color: var(--NAVY-BLUE, #2E2F42);
 
      /* Body Medium */
      font-size: 16px;
-     font-style: normal;
      font-weight: 500;
-     line-height: 1, 50;
-     /* 150% */
-     letter-spacing: 0.32px;
+     line-height: 1.50;
+     letter-spacing: 0.02px;
 
  }
+ .header-menu-link:hover{
+color:#4D5AE5
+ }
+  .header-mailto {color: var(--SLATE, #434455); :
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;}
+.header-tel{
+    color: var(--SLATE, #434455);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;       
+    letter-spacing: 0.02em;
+}
+
+
+.hero {
+    background-color: var(--NAVY-BLUE, #2E2F42);
+
+}
+.hero-titel{
+    color: var(--WHITE, #FFF);
+        text-align: center;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 1.07; 
+        letter-spacing: 0.02em;
+}
+.hero-btn {
+    color: var(--WHITE, #FFF);
+    font-family: Roboto;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+         }
+
+ .features {
+    background-color: #FFF;
+ }
+  
+ .features-list {}
+     
+ .feature-item {}
+        
+ .fatures-subtitel {
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-size: 20px;
+         font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+ }
+        
+.fetures-item-text {
+    color: var(--SLATE, #434455);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.team {
+    background-color: var(--CLOUD, #F4F4FD);
+}
+
+.team-titel {
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 1.11;
+        /* 111.111% */
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.team-list {}
+
+.team-item {}
+
+.team-img {}
+
+.team-name {
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.team-text {
+    color: var(--SLATE, #434455);
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.portfolio {}
+
+.portfolio-titel {
+    color: var(--NAVY-BLUE, #2E2F42);
+        text-align: center;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+}
+
+.portfolio-list {}
+
+.portfolio-item {}
+
+.portfolio-img {}
+
+.portfolio-subtitel {
+    color: var(--NAVY-BLUE, #2E2F42);
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+}
+
+.portfolio-text {
+    color: var(--SLATE, #434455);
+    
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+}
+.footer {
+    background: var(--NAVY-BLUE, #2E2F42);
+}
+
+.footer-logo {
+    color: var(--CLOUD, #F4F4FD);
+        font-family: Raleway;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
+}
+
+.footer-logo-blue {
+    color: var(--IRIS, #4D5AE5);
+}
+
+.footer-text {
+    color: var(--CLOUD, #F4F4FD);
+        /* Body */
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+}
