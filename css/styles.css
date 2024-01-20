@@ -189,14 +189,15 @@ background-color: #404BBF
         text-transform: capitalize;
 }
 
-.portfolio-list {}
+.portfolio-list {
+    background-color: #FFFFFF
+}
 
 .portfolio-item {}
 
 .portfolio-img {}
 
 .portfolio-subtitel {
-    background-color: #FFFFFF
     color: var(--NAVY-BLUE, #2E2F42);
         font-size: 20px;
         font-style: normal;
