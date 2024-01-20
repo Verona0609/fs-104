@@ -11,13 +11,13 @@
  }
  
  .body{
-    background: #FFF
+    background-color: #FFF
     color: #434455
  }
  <!--Header-->
 .header-logo{
-    color: var(--IRIS, #4D5AE5);
-        font-family: Raleway, sans-serif;
+    color: var(--IRIS, #4d5ae5);
+        font-family: Raleway,sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
@@ -26,7 +26,7 @@
 }
 .header-logo-studio{
     color: var(--NAVY-BLUE, #2E2F42);
-        font-family: Raleway;
+        font-family: Raleway,sans-serif;
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
@@ -36,8 +36,6 @@
 }
  .header-menu-link {
      color: var(--NAVY-BLUE, #2E2F42);
-
-     /* Body Medium */
      font-size: 16px;
      font-weight: 500;
      line-height: 1.50;
@@ -49,9 +47,13 @@
  .header-menu-link:active{
 color:#404bbf;
  }
+ .header-adress{
+    font-style: normal
+ }
   .header-adress-mailto {
     color: var(--SLATE, #434455); 
     font-size: 16px;
+    font-style: normal
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;}
@@ -63,6 +65,7 @@ color:#404bbf
 .header-adress-tel{
     color: var(--SLATE, #434455);
     font-size: 16px;
+    font-style: normal
     font-weight: 400;
     line-height: 1.5;       
     letter-spacing: 0.02em;
@@ -89,13 +92,19 @@ color:#404bbf
 }
 .hero-btn {
     background-color: #4D5AE5
-    color: var(--WHITE, #FFF);
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        cursor: pointer
-         }
+    color: #ffffff
+    }
+.hero-btn {
+        color: var(--WHITE, #FFF);
+            font-family: Roboto, sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.5;
+            letter-spacing: 0.04em;
+            cursor: pointer ; 
+    }
+    
+         
   .hero-btn:hover,
  .hero-btn:focus,
 .hero-btn:active{
@@ -164,7 +173,9 @@ background-color: #404BBF
         line-height: 1.5;
         letter-spacing: 0.02em;
 }
-.portfolio {}
+.portfolio {
+    background-color: #FFFFFF
+}
 
 .portfolio-titel {
     color: var(--NAVY-BLUE, #2E2F42);
@@ -211,7 +222,7 @@ background-color: #404BBF
         font-size: 18px;
         font-weight: 700;
         line-height: 1.17;
-        letter-spacing: 0.03;
+        letter-spacing: 0.03em;
         text-transform: uppercase;
         
 }
@@ -229,5 +240,5 @@ background-color: #404BBF
         font-weight: 400;
         line-height: 1.5;
         /* 150% */
-        letter-spacing: 0.02;
+        letter-spacing: 0.02em;
 }
