@@ -176,7 +176,7 @@ background-color: #404BBF
         letter-spacing: 0.02em;
 }
 .portfolio {
-    background-color: #FFFFFF;
+    
     
 }
 
@@ -191,6 +191,7 @@ background-color: #404BBF
 }
 
 .portfolio-list {
+    background-color: #FFFFFF;
     
 }
 
