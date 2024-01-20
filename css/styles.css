@@ -67,7 +67,8 @@ color:#404bbf
 .header-adress-tel{
     color: var(--SLATE, #434455);
         font-size: 16px;
-        font-style: normal font-weight: 400;
+        font-style: normal;
+        font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
     }
@@ -175,7 +176,7 @@ background-color: #404BBF
         letter-spacing: 0.02em;
 }
 .portfolio {
-    background-color: #FFFFFF
+    
 }
 
 .portfolio-titel {
@@ -188,13 +189,14 @@ background-color: #404BBF
         text-transform: capitalize;
 }
 
-.portfolio-list {background-color: #FFFFFF}
+.portfolio-list {}
 
-.portfolio-item {background-color: #FFFFFF}
+.portfolio-item {}
 
 .portfolio-img {}
 
 .portfolio-subtitel {
+    background-color: #FFFFFF
     color: var(--NAVY-BLUE, #2E2F42);
         font-size: 20px;
         font-style: normal;
