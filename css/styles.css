@@ -303,11 +303,12 @@ display: flex;
         margin-left: 156px;
         margin-right: 156px;
     row-gap: 48px;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-item {
     background: var(--white);
-width: calc((100% - 48px) / 3);
+
 }
 
 .portfolio-img {
