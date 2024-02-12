@@ -95,6 +95,7 @@ margin: 0 auto;
  .header-menu-link:focus{
 color:#404bbf;
  }
+ 
  .header-adress{
     font-style: normal;
  }
@@ -105,31 +106,17 @@ color:#404bbf;
 
 
  }
-  .header-adress-mailto {
-    color: var(--SLATE, #434455); 
+  .header-contact {color: var(--SLATE, #434455); 
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-    .header-adress-mailto:hover,
-    .header-adress-mailto:focus{
+    .header-contact:hover,
+    .header-contact:focus{
 color:#404bbf;
     }
-.header-adress-tel{
-    color: var(--SLATE,#434455); 
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        
-    }
-    
-    .header-adress-tel:hover,
-    .header-adress-tel:focus{
-        color: #404bbf;
- 
- }
+
 
 
 
